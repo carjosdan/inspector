@@ -18,5 +18,8 @@ php bin/console cache:clear
 php bin/console cache:warmup
 php bin/console make:migration
 php bin/console doctrine:migrations:migrate [OK]
+php bin/console debug:asset-map
+php bin/console debug:config framework asset_mapper
+head -10 /var/www/html/inspector/assets/app.js
 
 ```
